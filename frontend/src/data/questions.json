@@ -1,0 +1,1556 @@
+[
+  {
+    "id": 1,
+    "question": "What's your favorite way to spend a day off?",
+    "category": "Likes",
+    "deepness": 1
+  },
+  {
+    "id": 2,
+    "question": "What type of music are you into?",
+    "category": "Likes",
+    "deepness": 1
+  },
+  {
+    "id": 3,
+    "question": "What was the best vacation you ever took and why?",
+    "category": "Likes",
+    "deepness": 3
+  },
+  {
+    "id": 4,
+    "question": "Where's the next place on your travel bucket list and why?",
+    "category": "Likes",
+    "deepness": 2
+  },
+  {
+    "id": 5,
+    "question": "What are your hobbies, and how did you get into them?",
+    "category": "Likes",
+    "deepness": 2
+  },
+  {
+    "id": 6,
+    "question": "What was your favorite age growing up?",
+    "category": "Likes",
+    "deepness": 3
+  },
+  {
+    "id": 7,
+    "question": "What was the last thing you read?",
+    "category": "Likes",
+    "deepness": 1
+  },
+  {
+    "id": 8,
+    "question": "Would you say you're more of an extrovert or an introvert?",
+    "category": "Likes",
+    "deepness": 2
+  },
+  {
+    "id": 9,
+    "question": "What's your favorite ice cream topping?",
+    "category": "Likes",
+    "deepness": 1
+  },
+  {
+    "id": 10,
+    "question": "What was the last TV show you binge-watched?",
+    "category": "Likes",
+    "deepness": 1
+  },
+  {
+    "id": 11,
+    "question": "Are you into podcasts or do you only listen to music?",
+    "category": "Likes",
+    "deepness": 1
+  },
+  {
+    "id": 12,
+    "question": "Do you have a favorite holiday? Why or why not?",
+    "category": "Likes",
+    "deepness": 3
+  },
+  {
+    "id": 13,
+    "question": "If you could only eat one food for the rest of your life, what would it be?",
+    "category": "Likes",
+    "deepness": 1
+  },
+  {
+    "id": 14,
+    "question": "Do you like going to the movies or prefer watching at home?",
+    "category": "Likes",
+    "deepness": 1
+  },
+  {
+    "id": 15,
+    "question": "What's your favorite sleeping position?",
+    "category": "Likes",
+    "deepness": 3
+  },
+  {
+    "id": 16,
+    "question": "What's your go-to guilty pleasure?",
+    "category": "Likes",
+    "deepness": 2
+  },
+  {
+    "id": 17,
+    "question": "In the summer, would you rather go to the beach or go camping?",
+    "category": "Likes",
+    "deepness": 1
+  },
+  {
+    "id": 18,
+    "question": "What's your favorite quote from a TV show/movie/book?",
+    "category": "Likes",
+    "deepness": 2
+  },
+  {
+    "id": 19,
+    "question": "How old were you when you had your first celebrity crush, and who was it?",
+    "category": "Likes",
+    "deepness": 3
+  },
+  {
+    "id": 20,
+    "question": "What's one thing that can instantly make your day better?",
+    "category": "Likes",
+    "deepness": 3
+  },
+  {
+    "id": 21,
+    "question": "Do you have any pet peeves?",
+    "category": "Likes",
+    "deepness": 2
+  },
+  {
+    "id": 22,
+    "question": "Which meal is your favorite: breakfast, lunch, or dinner?",
+    "category": "Likes",
+    "deepness": 1
+  },
+  {
+    "id": 23,
+    "question": "What song always gets you out on the dance floor?",
+    "category": "Likes",
+    "deepness": 1
+  },
+  {
+    "id": 24,
+    "question": "When you were a kid, did you eat the crusts on your sandwich or not?",
+    "category": "Likes",
+    "deepness": 1
+  },
+  {
+    "id": 25,
+    "question": "What activity instantly calms you?",
+    "category": "Likes",
+    "deepness": 3
+  },
+  {
+    "id": 26,
+    "question": "Ideally, how would you spend your birthday?",
+    "category": "Likes",
+    "deepness": 2
+  },
+  {
+    "id": 27,
+    "question": "What do you do on your commute to/from work?",
+    "category": "Likes",
+    "deepness": 1
+  },
+  {
+    "id": 28,
+    "question": "Are you a fan of musicals—why or why not?",
+    "category": "Likes",
+    "deepness": 2
+  },
+  {
+    "id": 29,
+    "question": "What's your favorite season and why?",
+    "category": "Likes",
+    "deepness": 3
+  },
+  {
+    "id": 30,
+    "question": "What's the best joke you've ever heard?",
+    "category": "Likes",
+    "deepness": 1
+  },
+  {
+    "id": 31,
+    "question": "What's the phone app you use most?",
+    "category": "Likes",
+    "deepness": 3
+  },
+  {
+    "id": 32,
+    "question": "Would you rather cook or order in?",
+    "category": "Likes",
+    "deepness": 2
+  },
+  {
+    "id": 33,
+    "question": "Have your ever disliked something and then changed your mind?",
+    "category": "Likes",
+    "deepness": 2
+  },
+  {
+    "id": 34,
+    "question": "What's your favorite board game?",
+    "category": "Likes",
+    "deepness": 2
+  },
+  {
+    "id": 35,
+    "question": "How do you take your coffee?",
+    "category": "Likes",
+    "deepness": 1
+  },
+  {
+    "id": 36,
+    "question": "What's your most prized possession and why?",
+    "category": "Likes",
+    "deepness": 3
+  },
+  {
+    "id": 37,
+    "question": "Is there any product that you couldn't live without?",
+    "category": "Likes",
+    "deepness": 2
+  },
+  {
+    "id": 38,
+    "question": "Do you sleep with a top sheet? Why or why not?",
+    "category": "Likes",
+    "deepness": 3
+  },
+  {
+    "id": 39,
+    "question": "If you could have any exotic animal as a pet, which would it be?",
+    "category": "Likes",
+    "deepness": 2
+  },
+  {
+    "id": 40,
+    "question": "What would be the first thing you'd do if you won the lottery?",
+    "category": "Likes",
+    "deepness": 2
+  },
+  {
+    "id": 41,
+    "question": "What's your favorite way to unwind?",
+    "category": "Likes",
+    "deepness": 2
+  },
+  {
+    "id": 42,
+    "question": "How do you enjoy spending your alone time?",
+    "category": "Likes",
+    "deepness": 3
+  },
+  {
+    "id": 43,
+    "question": "What's the best concert you've ever been to?",
+    "category": "Likes",
+    "deepness": 2
+  },
+  {
+    "id": 44,
+    "question": "Do you have a favorite type of exercise?",
+    "category": "Likes",
+    "deepness": 1
+  },
+  {
+    "id": 45,
+    "question": "What causes are you passionate about?",
+    "category": "Likes",
+    "deepness": 3
+  },
+  {
+    "id": 46,
+    "question": "What's something you're excited about right now?",
+    "category": "Likes",
+    "deepness": 3
+  },
+  {
+    "id": 47,
+    "question": "What's your favorite content genre (horror, sci-fi, rom-com, etc",
+    "category": "Likes",
+    "deepness": 1
+  },
+  {
+    "id": 48,
+    "question": "What's an essential part of your daily routine?",
+    "category": "Likes",
+    "deepness": 2
+  },
+  {
+    "id": 49,
+    "question": "What's the best gift you've ever received?",
+    "category": "Likes",
+    "deepness": 3
+  },
+  {
+    "id": 50,
+    "question": "What's the worst gift you've ever received, and what did you do about it?",
+    "category": "Likes",
+    "deepness": 3
+  },
+  {
+    "id": 51,
+    "question": "If you could choose your own work schedule, would you?",
+    "category": "Career",
+    "deepness": 1
+  },
+  {
+    "id": 52,
+    "question": "Is there one job you'd never ever do?",
+    "category": "Career",
+    "deepness": 3
+  },
+  {
+    "id": 53,
+    "question": "What's the first thing you do after getting home from work?",
+    "category": "Career",
+    "deepness": 1
+  },
+  {
+    "id": 54,
+    "question": "Who or what inspires you in your career?",
+    "category": "Career",
+    "deepness": 3
+  },
+  {
+    "id": 55,
+    "question": "How do you approach taking time off from work?",
+    "category": "Career",
+    "deepness": 2
+  },
+  {
+    "id": 56,
+    "question": "What's something an outsider wouldn't know about your industry?",
+    "category": "Career",
+    "deepness": 1
+  },
+  {
+    "id": 57,
+    "question": "Do you have a morning routine at work? If so, what it's like?",
+    "category": "Career",
+    "deepness": 1
+  },
+  {
+    "id": 58,
+    "question": "What's your commute to work like?",
+    "category": "Career",
+    "deepness": 2
+  },
+  {
+    "id": 59,
+    "question": "Are you able to work from home, and if so, do you enjoy it?",
+    "category": "Career",
+    "deepness": 2
+  },
+  {
+    "id": 60,
+    "question": "Do you get along with all your coworkers?",
+    "category": "Career",
+    "deepness": 3
+  },
+  {
+    "id": 61,
+    "question": "What's your favorite thing about your current job?",
+    "category": "Career",
+    "deepness": 2
+  },
+  {
+    "id": 62,
+    "question": "What annoys you most?",
+    "category": "Career",
+    "deepness": 3
+  },
+  {
+    "id": 63,
+    "question": "What's the career highlight you're most proud of?",
+    "category": "Career",
+    "deepness": 3
+  },
+  {
+    "id": 64,
+    "question": "Do you think you'll stay in your current gig awhile? Why or why not?",
+    "category": "Career",
+    "deepness": 3
+  },
+  {
+    "id": 65,
+    "question": "What type of role do you want to take on after this one?",
+    "category": "Career",
+    "deepness": 2
+  },
+  {
+    "id": 66,
+    "question": "Are you more of a \"work to live\" or a \"live to work\" type of person?",
+    "category": "Career",
+    "deepness": 1
+  },
+  {
+    "id": 67,
+    "question": "Does your job make you feel happy and fulfilled? Why or why not?",
+    "category": "Career",
+    "deepness": 2
+  },
+  {
+    "id": 68,
+    "question": "How would your 10-year-old self react to what you do now?",
+    "category": "Career",
+    "deepness": 1
+  },
+  {
+    "id": 69,
+    "question": "What do you remember most about your first job?",
+    "category": "Career",
+    "deepness": 1
+  },
+  {
+    "id": 70,
+    "question": "How old were you when you started working?",
+    "category": "Career",
+    "deepness": 1
+  },
+  {
+    "id": 71,
+    "question": "What's the worst job you've ever had?",
+    "category": "Career",
+    "deepness": 1
+  },
+  {
+    "id": 72,
+    "question": "What originally got you interested in your current field of work?",
+    "category": "Career",
+    "deepness": 2
+  },
+  {
+    "id": 73,
+    "question": "Have you ever had a side hustle or considered having one?",
+    "category": "Career",
+    "deepness": 2
+  },
+  {
+    "id": 74,
+    "question": "What's your favorite part of the workday?",
+    "category": "Career",
+    "deepness": 1
+  },
+  {
+    "id": 75,
+    "question": "What's the best career decision you've ever made?",
+    "category": "Career",
+    "deepness": 2
+  },
+  {
+    "id": 76,
+    "question": "What's the worst career decision you've ever made?",
+    "category": "Career",
+    "deepness": 1
+  },
+  {
+    "id": 77,
+    "question": "Do you consider yourself good at networking?",
+    "category": "Career",
+    "deepness": 1
+  },
+  {
+    "id": 78,
+    "question": "What career advice would you give to your younger self?",
+    "category": "Career",
+    "deepness": 2
+  },
+  {
+    "id": 79,
+    "question": "Do you believe in having a \"five-year plan\"?",
+    "category": "Career",
+    "deepness": 3
+  },
+  {
+    "id": 80,
+    "question": "How do you separate your work life from your home life?",
+    "category": "Career",
+    "deepness": 3
+  },
+  {
+    "id": 81,
+    "question": "When will you know you've \"made it\"?",
+    "category": "Career",
+    "deepness": 3
+  },
+  {
+    "id": 82,
+    "question": "Are you looking forward to retiring, or do you plan to work as long as possible?",
+    "category": "Career",
+    "deepness": 2
+  },
+  {
+    "id": 83,
+    "question": "Have you ever had \"imposter syndrome\"?",
+    "category": "Career",
+    "deepness": 3
+  },
+  {
+    "id": 84,
+    "question": "What do you think about workaholics?",
+    "category": "Career",
+    "deepness": 3
+  },
+  {
+    "id": 85,
+    "question": "What qualities do you look for in a boss?",
+    "category": "Career",
+    "deepness": 2
+  },
+  {
+    "id": 86,
+    "question": "Do you have a professional mentor? If not, do you want one?",
+    "category": "Career",
+    "deepness": 2
+  },
+  {
+    "id": 87,
+    "question": "What energizes you about your career?",
+    "category": "Career",
+    "deepness": 3
+  },
+  {
+    "id": 88,
+    "question": "Are you into after-work happy hours?",
+    "category": "Career",
+    "deepness": 1
+  },
+  {
+    "id": 89,
+    "question": "How do you motivate yourself in your career?",
+    "category": "Career",
+    "deepness": 3
+  },
+  {
+    "id": 90,
+    "question": "What's the best career advice you've ever heard?",
+    "category": "Career",
+    "deepness": 3
+  },
+  {
+    "id": 91,
+    "question": "What's the worst career advice you've ever received?",
+    "category": "Career",
+    "deepness": 2
+  },
+  {
+    "id": 92,
+    "question": "When you started your current job, what most surprised you?",
+    "category": "Career",
+    "deepness": 1
+  },
+  {
+    "id": 93,
+    "question": "How do you pick yourself back up after making a mistake at work?",
+    "category": "Career",
+    "deepness": 2
+  },
+  {
+    "id": 94,
+    "question": "How do you deal with work stress?",
+    "category": "Career",
+    "deepness": 2
+  },
+  {
+    "id": 95,
+    "question": "Do you have a work bestie?",
+    "category": "Career",
+    "deepness": 1
+  },
+  {
+    "id": 96,
+    "question": "What's one work-related thing you want to accomplish in the next year?",
+    "category": "Career",
+    "deepness": 3
+  },
+  {
+    "id": 97,
+    "question": "Who has had the biggest impact on your career choice?",
+    "category": "Career",
+    "deepness": 1
+  },
+  {
+    "id": 98,
+    "question": "What does your family think of your career?",
+    "category": "Career",
+    "deepness": 2
+  },
+  {
+    "id": 99,
+    "question": "What's the best thing you've learned in your current position?",
+    "category": "Career",
+    "deepness": 1
+  },
+  {
+    "id": 100,
+    "question": "If you could do it all over again, would you pursue the same career? Why or why not?",
+    "category": "Career",
+    "deepness": 3
+  },
+  {
+    "id": 101,
+    "question": "How much time do you spend with your family?",
+    "category": "Family",
+    "deepness": 2
+  },
+  {
+    "id": 102,
+    "question": "Who do you most like spending time with and why?",
+    "category": "Family",
+    "deepness": 3
+  },
+  {
+    "id": 103,
+    "question": "Which family member makes the best food?",
+    "category": "Family",
+    "deepness": 1
+  },
+  {
+    "id": 104,
+    "question": "How has your opinion of your family changed over the years?",
+    "category": "Family",
+    "deepness": 3
+  },
+  {
+    "id": 105,
+    "question": "If you're close with your family, what's the hardest part about spending time away from them?",
+    "category": "Family",
+    "deepness": 2
+  },
+  {
+    "id": 106,
+    "question": "Do you wish you had a bigger family, or are you happy with its current size?",
+    "category": "Family",
+    "deepness": 2
+  },
+  {
+    "id": 107,
+    "question": "Which family member has had the greatest impact on you?",
+    "category": "Family",
+    "deepness": 3
+  },
+  {
+    "id": 108,
+    "question": "What does your family's last name mean? (Look it up if you don't know!)",
+    "category": "Family",
+    "deepness": 1
+  },
+  {
+    "id": 109,
+    "question": "Who's the best gift-giver in your family?",
+    "category": "Family",
+    "deepness": 2
+  },
+  {
+    "id": 110,
+    "question": "What's your favorite story about your grandparents?",
+    "category": "Family",
+    "deepness": 2
+  },
+  {
+    "id": 111,
+    "question": "Have you ever mapped out your family tree?",
+    "category": "Family",
+    "deepness": 1
+  },
+  {
+    "id": 112,
+    "question": "Were you close with your family growing up?",
+    "category": "Family",
+    "deepness": 2
+  },
+  {
+    "id": 113,
+    "question": "How do you define your family now?",
+    "category": "Family",
+    "deepness": 2
+  },
+  {
+    "id": 114,
+    "question": "What traits are most important to you in your family members?",
+    "category": "Family",
+    "deepness": 3
+  },
+  {
+    "id": 115,
+    "question": "Who in your family makes you feel the safest?",
+    "category": "Family",
+    "deepness": 3
+  },
+  {
+    "id": 116,
+    "question": "Do you want a family of your own?",
+    "category": "Family",
+    "deepness": 2
+  },
+  {
+    "id": 117,
+    "question": "Have you ever been to a family reunion?",
+    "category": "Family",
+    "deepness": 1
+  },
+  {
+    "id": 118,
+    "question": "If you could change your relationship with a family member, would you? If so, with whom?",
+    "category": "Family",
+    "deepness": 3
+  },
+  {
+    "id": 119,
+    "question": "What was it like growing up as the youngest/oldest/middle/only child?",
+    "category": "Family",
+    "deepness": 1
+  },
+  {
+    "id": 120,
+    "question": "Does your family ever take trips together?",
+    "category": "Family",
+    "deepness": 1
+  },
+  {
+    "id": 121,
+    "question": "What's your favorite family memory?",
+    "category": "Family",
+    "deepness": 3
+  },
+  {
+    "id": 122,
+    "question": "What TV family most reminds you of your own?",
+    "category": "Family",
+    "deepness": 1
+  },
+  {
+    "id": 123,
+    "question": "Do you ever wish you were raised differently?",
+    "category": "Family",
+    "deepness": 3
+  },
+  {
+    "id": 124,
+    "question": "What's the best piece of advice a family member has given you?",
+    "category": "Family",
+    "deepness": 2
+  },
+  {
+    "id": 125,
+    "question": "Do you wish you had more siblings? If so, why?",
+    "category": "Family",
+    "deepness": 2
+  },
+  {
+    "id": 126,
+    "question": "Did you ever hide anything from or lie to your parents?",
+    "category": "Family",
+    "deepness": 2
+  },
+  {
+    "id": 127,
+    "question": "If you had a family business, what would it be?",
+    "category": "Family",
+    "deepness": 1
+  },
+  {
+    "id": 128,
+    "question": "Do you and your family have any nicknames for each other?",
+    "category": "Family",
+    "deepness": 1
+  },
+  {
+    "id": 129,
+    "question": "What's your favorite way to spend time with your family?",
+    "category": "Family",
+    "deepness": 2
+  },
+  {
+    "id": 130,
+    "question": "How do you show your family you love them?",
+    "category": "Family",
+    "deepness": 3
+  },
+  {
+    "id": 131,
+    "question": "What's your favorite family tradition?",
+    "category": "Family",
+    "deepness": 1
+  },
+  {
+    "id": 132,
+    "question": "What's the most important holiday you spend with your family and why?",
+    "category": "Family",
+    "deepness": 2
+  },
+  {
+    "id": 133,
+    "question": "Who in your family would you describe as a \"character\"?",
+    "category": "Family",
+    "deepness": 1
+  },
+  {
+    "id": 134,
+    "question": "How do you feel about family events?",
+    "category": "Family",
+    "deepness": 2
+  },
+  {
+    "id": 135,
+    "question": "What's something your family would be surprised to learn about you?",
+    "category": "Family",
+    "deepness": 3
+  },
+  {
+    "id": 136,
+    "question": "Which family member do you confide in most?",
+    "category": "Family",
+    "deepness": 3
+  },
+  {
+    "id": 137,
+    "question": "How do you deal with arguments between family members?",
+    "category": "Family",
+    "deepness": 2
+  },
+  {
+    "id": 138,
+    "question": "If you have children, how do you want to raise them?",
+    "category": "Family",
+    "deepness": 3
+  },
+  {
+    "id": 139,
+    "question": "What's more important: family or friends?",
+    "category": "Family",
+    "deepness": 3
+  },
+  {
+    "id": 140,
+    "question": "Do you have any friends you would consider family?",
+    "category": "Family",
+    "deepness": 3
+  },
+  {
+    "id": 141,
+    "question": "Has your family ever pressured you to act a certain way?",
+    "category": "Family",
+    "deepness": 3
+  },
+  {
+    "id": 142,
+    "question": "Did you ever get to meet your great-grandparents?",
+    "category": "Family",
+    "deepness": 1
+  },
+  {
+    "id": 143,
+    "question": "What personality traits do you share with your relatives?",
+    "category": "Family",
+    "deepness": 1
+  },
+  {
+    "id": 144,
+    "question": "What physical traits do you share with your relatives?",
+    "category": "Family",
+    "deepness": 1
+  },
+  {
+    "id": 145,
+    "question": "What stories did your family members tell you growing up?",
+    "category": "Family",
+    "deepness": 2
+  },
+  {
+    "id": 146,
+    "question": "How did your parents (and/or grandparents) meet?",
+    "category": "Family",
+    "deepness": 2
+  },
+  {
+    "id": 147,
+    "question": "What makes you proud of your family?",
+    "category": "Family",
+    "deepness": 2
+  },
+  {
+    "id": 148,
+    "question": "Who's the newest member of your family?",
+    "category": "Family",
+    "deepness": 1
+  },
+  {
+    "id": 149,
+    "question": "What can always bring your family together?",
+    "category": "Family",
+    "deepness": 1
+  },
+  {
+    "id": 150,
+    "question": "What do you think makes someone a “good person”?",
+    "category": "Values",
+    "deepness": 2
+  },
+  {
+    "id": 151,
+    "question": "Do you believe in love at first sight?",
+    "category": "Values",
+    "deepness": 2
+  },
+  {
+    "id": 152,
+    "question": "How do you show kindness to others?",
+    "category": "Values",
+    "deepness": 2
+  },
+  {
+    "id": 153,
+    "question": "Do you believe in soulmates? Why or why not?",
+    "category": "Values",
+    "deepness": 3
+  },
+  {
+    "id": 154,
+    "question": "What do you look for in a friendship?",
+    "category": "Values",
+    "deepness": 1
+  },
+  {
+    "id": 155,
+    "question": "How do your daily priorities reflect your overall values in life?",
+    "category": "Values",
+    "deepness": 2
+  },
+  {
+    "id": 156,
+    "question": "Do you believe time you enjoy wasting is not wasted time?",
+    "category": "Values",
+    "deepness": 1
+  },
+  {
+    "id": 157,
+    "question": "What life lessons have you had to learn the hard way?",
+    "category": "Values",
+    "deepness": 3
+  },
+  {
+    "id": 158,
+    "question": "Do you believe what is meant for you will never miss you?",
+    "category": "Values",
+    "deepness": 2
+  },
+  {
+    "id": 159,
+    "question": "Have you ever experienced true love, and how did you know?",
+    "category": "Values",
+    "deepness": 3
+  },
+  {
+    "id": 160,
+    "question": "What's a relationship deal breaker for you?",
+    "category": "Values",
+    "deepness": 2
+  },
+  {
+    "id": 161,
+    "question": "If you had only one sense (hearing, touch, sight, etc",
+    "category": "Values",
+    "deepness": 1
+  },
+  {
+    "id": 162,
+    "question": "Do you volunteer at all?",
+    "category": "Values",
+    "deepness": 1
+  },
+  {
+    "id": 163,
+    "question": "What makes you feel at peace?",
+    "category": "Values",
+    "deepness": 1
+  },
+  {
+    "id": 164,
+    "question": "What are you most proud of in the last year?",
+    "category": "Values",
+    "deepness": 2
+  },
+  {
+    "id": 165,
+    "question": "What makes you feel most accomplished?",
+    "category": "Values",
+    "deepness": 1
+  },
+  {
+    "id": 166,
+    "question": "Who do you admire most in the world?",
+    "category": "Values",
+    "deepness": 1
+  },
+  {
+    "id": 167,
+    "question": "Would you rather make more money doing a job you hate or less doing one you love?",
+    "category": "Values",
+    "deepness": 1
+  },
+  {
+    "id": 168,
+    "question": "Which of your personality traits are you most proud of?",
+    "category": "Values",
+    "deepness": 3
+  },
+  {
+    "id": 169,
+    "question": "What's the first thing you look for in a partner and/or friend?",
+    "category": "Values",
+    "deepness": 2
+  },
+  {
+    "id": 170,
+    "question": "How has your perspective on the world changed over time?",
+    "category": "Values",
+    "deepness": 2
+  },
+  {
+    "id": 171,
+    "question": "Do you live by any piece of advice or motto?",
+    "category": "Values",
+    "deepness": 1
+  },
+  {
+    "id": 172,
+    "question": "How can someone earn your trust?",
+    "category": "Values",
+    "deepness": 3
+  },
+  {
+    "id": 173,
+    "question": "How can someone lose your trust?",
+    "category": "Values",
+    "deepness": 2
+  },
+  {
+    "id": 174,
+    "question": "Would you rather someone be honest and hurt your feelings or lie to protect them?",
+    "category": "Values",
+    "deepness": 3
+  },
+  {
+    "id": 175,
+    "question": "If you could snap your fingers and instantly make the world better, what would you do?",
+    "category": "Values",
+    "deepness": 3
+  },
+  {
+    "id": 176,
+    "question": "Do you believe in astrology? Why or why not?",
+    "category": "Values",
+    "deepness": 1
+  },
+  {
+    "id": 177,
+    "question": "Have you ever lost a friend? If so, what happened?",
+    "category": "Values",
+    "deepness": 3
+  },
+  {
+    "id": 178,
+    "question": "If you could only teach one thing to your (future) child, what would it be?",
+    "category": "Values",
+    "deepness": 3
+  },
+  {
+    "id": 179,
+    "question": "What's the scariest thing you've ever done, and why did you do it?",
+    "category": "Values",
+    "deepness": 2
+  },
+  {
+    "id": 180,
+    "question": "Do you believe in second chances?",
+    "category": "Values",
+    "deepness": 2
+  },
+  {
+    "id": 181,
+    "question": "Where do you get your news?",
+    "category": "Values",
+    "deepness": 1
+  },
+  {
+    "id": 182,
+    "question": "What is your biggest irrational fear?",
+    "category": "Values",
+    "deepness": 1
+  },
+  {
+    "id": 183,
+    "question": "Are you active on social media, or do you prefer to be more private?",
+    "category": "Values",
+    "deepness": 1
+  },
+  {
+    "id": 184,
+    "question": "What is your definition of success?",
+    "category": "Values",
+    "deepness": 2
+  },
+  {
+    "id": 185,
+    "question": "Are you an organ donor, and how did you come to that decision?",
+    "category": "Values",
+    "deepness": 2
+  },
+  {
+    "id": 186,
+    "question": "Do you believe you should do one thing a day that scares you?",
+    "category": "Values",
+    "deepness": 3
+  },
+  {
+    "id": 187,
+    "question": "What, if anything, do you think happens after death?",
+    "category": "Values",
+    "deepness": 3
+  },
+  {
+    "id": 188,
+    "question": "What line should someone never cross with you?",
+    "category": "Values",
+    "deepness": 2
+  },
+  {
+    "id": 189,
+    "question": "How do you define beauty?",
+    "category": "Values",
+    "deepness": 3
+  },
+  {
+    "id": 190,
+    "question": "Do you believe in life on other planets?",
+    "category": "Values",
+    "deepness": 1
+  },
+  {
+    "id": 191,
+    "question": "How do you interact with someone who disagrees with you?",
+    "category": "Values",
+    "deepness": 2
+  },
+  {
+    "id": 192,
+    "question": "Do you think our dreams have hidden meanings?",
+    "category": "Dreams",
+    "deepness": 2
+  },
+  {
+    "id": 193,
+    "question": "When you want to give up, what keeps you going?",
+    "category": "Dreams",
+    "deepness": 3
+  },
+  {
+    "id": 194,
+    "question": "Do you live by any words of wisdom?",
+    "category": "Dreams",
+    "deepness": 3
+  },
+  {
+    "id": 195,
+    "question": "What's the first step you take in trying to achieve a new goal?",
+    "category": "Dreams",
+    "deepness": 1
+  },
+  {
+    "id": 196,
+    "question": "How do you turn a “no” into a “yes”?",
+    "category": "Dreams",
+    "deepness": 1
+  },
+  {
+    "id": 197,
+    "question": "What do you do to overcome a personal setback?",
+    "category": "Dreams",
+    "deepness": 3
+  },
+  {
+    "id": 198,
+    "question": "Is it easy for you to accept help in achieving your dreams?",
+    "category": "Dreams",
+    "deepness": 2
+  },
+  {
+    "id": 199,
+    "question": "If you could do anything, besides what you're doing now, what would you do?",
+    "category": "Dreams",
+    "deepness": 3
+  },
+  {
+    "id": 200,
+    "question": "What do you regret not doing in the last year?",
+    "category": "Dreams",
+    "deepness": 2
+  },
+  {
+    "id": 201,
+    "question": "What's on your bucket list?",
+    "category": "Dreams",
+    "deepness": 2
+  },
+  {
+    "id": 202,
+    "question": "If you had unlimited money to start your own business, what would it be?",
+    "category": "Dreams",
+    "deepness": 1
+  },
+  {
+    "id": 203,
+    "question": "If you found out today was your last day on Earth, what would you do?",
+    "category": "Dreams",
+    "deepness": 1
+  },
+  {
+    "id": 204,
+    "question": "If you could live anywhere in the world, where would it be?",
+    "category": "Dreams",
+    "deepness": 1
+  },
+  {
+    "id": 205,
+    "question": "If you could relive one moment in your life, which would it be?",
+    "category": "Dreams",
+    "deepness": 3
+  },
+  {
+    "id": 206,
+    "question": "If you had the opportunity to be immortal, would you take it?",
+    "category": "Dreams",
+    "deepness": 2
+  },
+  {
+    "id": 207,
+    "question": "Which famous person in history would you want to spend the day with?",
+    "category": "Dreams",
+    "deepness": 1
+  },
+  {
+    "id": 208,
+    "question": "If you could time travel, when and where would you go?",
+    "category": "Dreams",
+    "deepness": 2
+  },
+  {
+    "id": 209,
+    "question": "Do you think you'll likely accomplish all your dreams?",
+    "category": "Dreams",
+    "deepness": 3
+  },
+  {
+    "id": 210,
+    "question": "If you could magically become famous, would you want to?",
+    "category": "Dreams",
+    "deepness": 2
+  },
+  {
+    "id": 211,
+    "question": "A genie gives you three wishes—what are they?",
+    "category": "Dreams",
+    "deepness": 2
+  },
+  {
+    "id": 212,
+    "question": "Do you believe in ghosts—why or why not? (Bonus question: If so, are you afraid of ghosts?)",
+    "category": "Curious",
+    "deepness": 2
+  },
+  {
+    "id": 213,
+    "question": "Do you have any special skills?",
+    "category": "Curious",
+    "deepness": 2
+  },
+  {
+    "id": 214,
+    "question": "Are you double-jointed?",
+    "category": "Curious",
+    "deepness": 1
+  },
+  {
+    "id": 215,
+    "question": "What's your game plan in a zombie apocalypse?",
+    "category": "Curious",
+    "deepness": 1
+  },
+  {
+    "id": 216,
+    "question": "Can you write in cursive?",
+    "category": "Curious",
+    "deepness": 1
+  },
+  {
+    "id": 217,
+    "question": "If you could live in a movie, which one would it be and why?",
+    "category": "Curious",
+    "deepness": 2
+  },
+  {
+    "id": 218,
+    "question": "What's your “dance like nobody's watching” song?",
+    "category": "Curious",
+    "deepness": 2
+  },
+  {
+    "id": 219,
+    "question": "Do you sing in the shower?",
+    "category": "Curious",
+    "deepness": 1
+  },
+  {
+    "id": 220,
+    "question": "Are you good at solving puzzles?",
+    "category": "Curious",
+    "deepness": 2
+  },
+  {
+    "id": 221,
+    "question": "How many hours do you get to the airport before a flight?",
+    "category": "Curious",
+    "deepness": 1
+  },
+  {
+    "id": 222,
+    "question": "Can you say your ABCs backwards?",
+    "category": "Curious",
+    "deepness": 1
+  },
+  {
+    "id": 223,
+    "question": "If you see a puddle on the ground, do you walk around it or over it?",
+    "category": "Curious",
+    "deepness": 2
+  },
+  {
+    "id": 224,
+    "question": "If you could have a super power, what would it be?",
+    "category": "Curious",
+    "deepness": 3
+  },
+  {
+    "id": 225,
+    "question": "If you could go back to anytime in history, where would you go?",
+    "category": "Curious",
+    "deepness": 3
+  },
+  {
+    "id": 226,
+    "question": "If you came back in your next life as an animal, what animal would you be?",
+    "category": "Curious",
+    "deepness": 3
+  },
+  {
+    "id": 227,
+    "question": "If you got to name a new country, how would you decide what to call it?",
+    "category": "Curious",
+    "deepness": 2
+  },
+  {
+    "id": 228,
+    "question": "What would be the title of your memoir?",
+    "category": "Curious",
+    "deepness": 3
+  },
+  {
+    "id": 229,
+    "question": "Do you hit the snooze button or wake up immediately?",
+    "category": "Curious",
+    "deepness": 1
+  },
+  {
+    "id": 230,
+    "question": "What's the first thing you do in the morning?",
+    "category": "Curious",
+    "deepness": 1
+  },
+  {
+    "id": 231,
+    "question": "What's the last thing you do at night?",
+    "category": "Curious",
+    "deepness": 2
+  },
+  {
+    "id": 232,
+    "question": "Do you believe in any conspiracy theories (no judgement)?",
+    "category": "Curious",
+    "deepness": 2
+  },
+  {
+    "id": 233,
+    "question": "Do you think iced coffee should only be consumed in the summer or all year round?",
+    "category": "Curious",
+    "deepness": 1
+  },
+  {
+    "id": 234,
+    "question": "Would you rather be covered in fur or covered in scales?",
+    "category": "Curious",
+    "deepness": 1
+  },
+  {
+    "id": 235,
+    "question": "What's your idea of a perfect date (yes, of the calendar year)?",
+    "category": "Curious",
+    "deepness": 1
+  },
+  {
+    "id": 236,
+    "question": "What's the most unusual place you've fallen asleep?",
+    "category": "Curious",
+    "deepness": 2
+  },
+  {
+    "id": 237,
+    "question": "At a party, where can someone find you?",
+    "category": "Curious",
+    "deepness": 2
+  },
+  {
+    "id": 238,
+    "question": "Do you wash your legs in the shower?",
+    "category": "Curious",
+    "deepness": 2
+  },
+  {
+    "id": 239,
+    "question": "Who would play you in the movie of your life?",
+    "category": "Curious",
+    "deepness": 3
+  },
+  {
+    "id": 240,
+    "question": "When making a PB&J sandwich, do you put on the peanut butter or jelly first?",
+    "category": "Curious",
+    "deepness": 1
+  },
+  {
+    "id": 241,
+    "question": "Do you have any allergies?",
+    "category": "Curious",
+    "deepness": 2
+  },
+  {
+    "id": 242,
+    "question": "Do you trust your own memory? Why or why not?",
+    "category": "Curious",
+    "deepness": 3
+  },
+  {
+    "id": 243,
+    "question": "Which fictional character do you relate to most?",
+    "category": "Curious",
+    "deepness": 3
+  },
+  {
+    "id": 244,
+    "question": "What, if anything, would make you walk out in the middle of a movie?",
+    "category": "Curious",
+    "deepness": 3
+  },
+  {
+    "id": 245,
+    "question": "When was the last time you cried and why?",
+    "category": "Curious",
+    "deepness": 3
+  },
+  {
+    "id": 246,
+    "question": "What's your most controversial opinion about something mundane?",
+    "category": "Curious",
+    "deepness": 2
+  },
+  {
+    "id": 247,
+    "question": "Do you \"stan\" any celebrities? (Eminem song Stan about an overly obsessed fan)",
+    "category": "Curious",
+    "deepness": 2
+  },
+  {
+    "id": 248,
+    "question": "What's your go-to midnight snack?",
+    "category": "Curious",
+    "deepness": 1
+  },
+  {
+    "id": 249,
+    "question": "What was your all-time favorite Halloween costume?",
+    "category": "Curious",
+    "deepness": 1
+  },
+  {
+    "id": 250,
+    "question": "What's the weirdest thing you do when you're alone?",
+    "category": "Curious",
+    "deepness": 3
+  },
+  {
+    "id": 251,
+    "question": "Do you have any recurring dreams?",
+    "category": "Curious",
+    "deepness": 3
+  },
+  {
+    "id": 252,
+    "question": "What's the silliest argument you've ever been in?",
+    "category": "Curious",
+    "deepness": 2
+  },
+  {
+    "id": 253,
+    "question": "What's the worst argument you've ever been in?",
+    "category": "Curious",
+    "deepness": 2
+  },
+  {
+    "id": 254,
+    "question": "What's your opinion on modern art?",
+    "category": "Curious",
+    "deepness": 1
+  },
+  {
+    "id": 255,
+    "question": "What's the most ridiculous outfit you've ever worn?",
+    "category": "Curious",
+    "deepness": 1
+  },
+  {
+    "id": 256,
+    "question": "If you could own a mythical creature (unicorn, phoenix, etc",
+    "category": "Curious",
+    "deepness": 2
+  },
+  {
+    "id": 257,
+    "question": "Would you rather have your dishes or clothes be magically clean?",
+    "category": "Curious",
+    "deepness": 1
+  },
+  {
+    "id": 258,
+    "question": "What's your favorite story about yourself?",
+    "category": "Curious",
+    "deepness": 3
+  },
+  {
+    "id": 259,
+    "question": "If you could change anything about yourself, would you? If so, what and why?",
+    "category": "Curious",
+    "deepness": 3
+  }
+ ]

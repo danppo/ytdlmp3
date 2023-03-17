@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders components: test bold param: bold  1`] = `
+<b
+  class="chakra-text css-1s6bgx9"
+  data-testid="title"
+>
+  test title
+</b>
+`;
+
+exports[`renders components: test bold param: normal  1`] = `
+<p
+  class="chakra-text css-1s6bgx9"
+  data-testid="title"
+>
+  test title
+</p>
+`;
+
+exports[`renders components: test size param: 3xl  1`] = `
+<p
+  class="chakra-text css-1jijfcn"
+  data-testid="title"
+>
+  test title
+</p>
+`;
+
+exports[`renders components: test size param: medium  1`] = `
+<p
+  class="chakra-text css-1s6bgx9"
+  data-testid="title"
+>
+  test title
+</p>
+`;

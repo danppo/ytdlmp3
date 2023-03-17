@@ -1,0 +1,24 @@
+# Tasks to do
+
+- ~~Create Footer~~
+- ~~Move darkmode button and icons~~
+- ~~fix lightmode card~~
+- ~~Show history scroll~~
+- ~~allow skip button~~
+- ~~show skipped in history~~
+- ~~fix app height to vh~~
+- ~~Hide depth level~~
+- ~~refresh question after cats selected~~
+- ~~copy question to clipboard~~
+- ~~Settings Modal~~
+- History scroll location indicator
+- Don't allow filter to be closed if only disabled cat is ticked
+- fix fullpage mode on phone (overlaps the browser menu)
+-
+- make 2 person mode
+- add logic to get questions deeper
+- walkthrough help
+- tidy up refactor
+- add unit tests
+- cypress testing
+- snapshot testing

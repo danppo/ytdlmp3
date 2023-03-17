@@ -1,0 +1,30 @@
+{
+  "name": "ymp3d",
+  "version": "1.0.5",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/d1zz7/ymp3d.git"
+  },
+  "description": "YouTube mp3 downloader",
+  "main": "index.js",
+  "scripts": {
+    "test": "node example.js"
+  },
+  "keywords": [
+    "mp3",
+    "youtube",
+    "youtube-mp3"
+  ],
+  "author": "d1zz7 <muhametov.tahir@yandex.kz",
+  "license": "MIT",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "https-proxy-agent": "^5.0.1",
+    "sanitize-filename": "^1.6.3",
+    "ytdl-core": "^4.11.2"
+  }
+}
