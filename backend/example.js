@@ -13,7 +13,7 @@ const y = new Ymp3({
 })
  */
 
-y.Download('sVx1mJDeUjY', '')
+y.Download('https://www.youtube.com/watch?v=-cKcXni4yuE', '')
   .then((videoInfo) => console.log(videoInfo))
   .catch((e) => console.log(e));
 

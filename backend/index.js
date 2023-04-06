@@ -41,7 +41,7 @@ class Ymp3 extends EventEmitter {
       ffmpeg({
         source: stream,
       })
-        .audioBitrate(192)
+        .audioBitrate(256)
         .withAudioCodec('libmp3lame')
         .toFormat('mp3')
         .outputOption(...outputOptions)
@@ -73,7 +73,7 @@ class Ymp3 extends EventEmitter {
             this.emit('finish', fileName);
           }.bind(this)
         )
-        .saveToFile(fileName);
+        .saveToFile('../download/' + fileName);
     } catch (e) {
       return e;
     }

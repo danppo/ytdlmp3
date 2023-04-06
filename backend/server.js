@@ -1,105 +1,89 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
+const ytdl = require('ytdl-core');
+const Ymp3 = require('./index');
+// const y = new Ymp3();
 
 const app = express();
-const port = 3000;
-
-let books = [
-  {
-    isbn: '9781593275846',
-    title: 'Eloquent JavaScript, Second Edition',
-    author: 'Marijn Haverbeke',
-    publish_date: '2014-12-14',
-    publisher: 'No Starch Press',
-    numOfPages: 472,
-  },
-  {
-    isbn: '9781449331818',
-    title: 'Learning JavaScript Design Patterns',
-    author: 'Addy Osmani',
-    publish_date: '2012-07-01',
-    publisher: "O'Reilly Media",
-    numOfPages: 254,
-  },
-  {
-    isbn: '9781449365035',
-    title: 'Speaking JavaScript',
-    author: 'Axel Rauschmayer',
-    publish_date: '2014-02-01',
-    publisher: "O'Reilly Media",
-    numOfPages: 460,
-  },
-];
+const port = 3001;
 
 app.use(cors());
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.post('/book', (req, res) => {
-  const book = req.body;
+const downloading = {};
 
-  // output the book to the console for debugging
-  console.log(book);
-  books.push(book);
+app.get('/api/details', (req, res) => {
+  const url = req.query.url;
+  console.log(url);
 
-  res.send('Book is added to the database');
+  ytdl
+    .getInfo(url)
+    .then((info) => {
+      console.log('direct info');
+
+      res.json(info);
+    })
+    .catch((e) => {
+      res.json(e);
+    });
 });
 
-app.get('/book', (req, res) => {
-  res.json(books);
-});
+app.get('/api/download', (req, res) => {
+  const y = new Ymp3();
+  const id = req.query.url;
+  console.log('url - ' + id);
+  const downloadingItem = {
+    status: 'Starting',
+    id,
+    progress: 0,
+    fileName: '',
+    error: '',
+  };
+  downloading[id] = downloadingItem;
 
-app.get('/book/:isbn', (req, res) => {
-  // reading isbn from the URL
-  const isbn = req.params.isbn;
+  y.Download(id, '')
+    .then((videoInfo) => {
+      res.json(downloading[id]);
+    })
+    .catch((e) => console.log(e));
 
-  // searching books for the isbn
-  for (let book of books) {
-    if (book.isbn === isbn) {
-      res.json(book);
-      return;
-    }
-  }
-
-  // sending 404 when not found something is a good practice
-  res.status(404).send('Book not found');
-});
-
-app.delete('/book/:isbn', (req, res) => {
-  // reading isbn from the URL
-  const isbn = req.params.isbn;
-
-  // remove item from the books array
-  books = books.filter((i) => {
-    if (i.isbn !== isbn) {
-      return true;
-    }
-
-    return false;
+  y.on('start', function (commandLine) {
+    console.log(commandLine);
   });
 
-  // sending 404 when not found something is a good practice
-  res.send('Book is deleted');
+  y.on('progress', function (progress) {
+    const id = progress.videoId;
+    downloading[id].status = 'Downloading';
+    downloading[id].progress = progress.percent;
+  });
+
+  y.on('finish', function (fileName) {
+    downloading[id].status = 'Finished';
+    downloading[id].progress = 100;
+    downloading[id].fileName = fileName;
+  });
+
+  y.on('error', function (e) {
+    downloading[id].status = 'Error';
+    downloading[id].error = e;
+    console.log(e);
+  });
 });
 
-app.post('/book/:isbn', (req, res) => {
-  // reading isbn from the URL
-  const isbn = req.params.isbn;
-  const newBook = req.body;
-
-  // remove item from the books array
-  for (let i = 0; i < books.length; i++) {
-    let book = books[i];
-
-    if (book.isbn === isbn) {
-      books[i] = newBook;
-    }
-  }
-
-  // sending 404 when not found something is a good practice
-  res.send('Book is edited');
+app.get('/api/downloading', (req, res) => {
+  res.json(Object.values(downloading));
 });
+app.delete('/api/cleardownloading', (req, res) => {
+  const id = req.query.id;
+  delete downloading[id];
+  res.json(Object.values(downloading));
+});
+
+//   // sending 404 when not found something is a good practice
+//   res.status(404).send('Book not found');
+// });
 
 app.listen(port, () => console.log(`Hello world app listening on port ${port}!`));

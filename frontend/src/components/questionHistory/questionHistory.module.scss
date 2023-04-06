@@ -1,9 +1,0 @@
-.questionHistory {
-  overflow: auto;
-  max-height: calc(100vh - 200px);
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-  &::-webkit-scrollbar {
-    display: none;
-  }
-}
