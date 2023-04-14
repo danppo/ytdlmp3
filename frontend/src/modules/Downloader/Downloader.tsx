@@ -34,39 +34,70 @@ const Downloader = () => {
   const [downloadItem, setDownloadItem] = useState<VideoItem[]>([]);
   const [downloadedItems, setDownloadedItems] = useState<string[]>([]);
   const [tick, setTick] = useState(0);
-  const [dl, setDl] = useState('');
+
+  enum ACTION {
+    UPDATE = 'action',
+    ADD = 'add',
+    REMOVE = 'remove',
+  }
+
+  const updateDownloadItems = (videoId: string, action: ACTION, item?: VideoItem) => {
+    console.log(item);
+
+    const index = downloadItem.findIndex((dl) => dl.videoId === videoId);
+    switch (action) {
+      case ACTION.ADD:
+        if (item) {
+          setDownloadItem([...downloadItem, item]);
+        }
+        break;
+      case ACTION.UPDATE:
+        if (item) {
+          console.log(downloadItem.length);
+
+          const newList = [...downloadItem];
+          newList[index] = item;
+          setDownloadItem(newList);
+        }
+        break;
+      case ACTION.REMOVE:
+        const updatedArray = [...downloadItem];
+        updatedArray.splice(index, 1);
+        setDownloadItem(updatedArray);
+        break;
+    }
+  };
 
   const getUpdates = () => {
+    // console.log('getting updates');
+
     axios.get(`/downloading`).then((res) => {
-      const updatingItem = downloadItem;
       res.data.forEach((item: any) => {
         const index = downloadItem.findIndex((dl) => dl.videoId === item.id);
+        const updatingItem = JSON.parse(JSON.stringify(downloadItem[index]));
+
         if (index >= 0) {
-          updatingItem[index].progress = item.progress;
-          updatingItem[index].status = item.status;
-          updatingItem[index].fileName = item.fileName;
-          updatingItem[index].error = item.error;
+          updatingItem.progress = item.progress;
+          updatingItem.status = item.status;
+          updatingItem.fileName = item.fileName;
+          updatingItem.error = item.error;
           if (item.status === 'Finished') {
             axios.delete(`/cleardownloading`, { params: { id: item.id } }).then((res) => {
               console.log(res.data);
             });
-            updatingItem[index].downloaded = 'YES';
+            updatingItem.downloaded = 'YES';
             setDownloadedItems([...downloadedItems, item.fileName]);
           }
+          // console.log(updatingItem);
         }
+        updateDownloadItems(item.id, ACTION.UPDATE, updatingItem);
       });
+      const updateTimer = setTimeout(getUpdates, 1000);
       if (res.data.every((item: VideoItem) => item.status === 'Finished')) {
         setTick(0);
+        clearTimeout(updateTimer);
       }
-      setDownloadItem([...updatingItem]);
     });
-  };
-
-  const clearItem = (item: string) => {
-    const index = downloadItem.findIndex((dl) => dl.videoId === item);
-    const updatedArray = [...downloadItem];
-    updatedArray.splice(index, 1);
-    setDownloadItem(updatedArray);
   };
 
   useEffect(() => {
@@ -81,28 +112,6 @@ const Downloader = () => {
     return () => clearInterval(intervalId);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [tick]);
-
-  useEffect(() => {
-    if (dl) {
-      const updated: VideoItem[] = [];
-
-      downloadItem.forEach((i) => {
-        console.log('match');
-        if (i.videoId === dl) {
-          const freshI = i;
-          freshI.downloaded = 'InProgress';
-
-          updated.push(freshI);
-        } else {
-          updated.push(i);
-        }
-      });
-
-      setDownloadItem(updated);
-      getDownload(dl);
-      setDl('');
-    }
-  }, [dl, downloadItem]);
 
   const fetchInfo = (url: string) => {
     if (url.length === 0) {
@@ -139,7 +148,8 @@ const Downloader = () => {
         error: '',
       };
 
-      setDownloadItem([...downloadItem, item]);
+      updateDownloadItems(item.videoId, ACTION.ADD, item);
+
       setUrlLoading(false);
     });
   };
@@ -147,13 +157,20 @@ const Downloader = () => {
   const getDownload = (videoId: string) => {
     console.log(videoId);
     const index = downloadItem.findIndex((di) => di.videoId === videoId);
-    const updated = downloadItem;
-    updated[index].downloaded = 'InProgress';
-    setDownloadItem(updated);
+    const updated = downloadItem[index];
+    console.log('get download');
+
+    // console.log(updated);
+
+    updated.downloaded = 'InProgress';
+    updateDownloadItems(videoId, ACTION.UPDATE, updated);
+
+    // setDownloadItem(updated);
 
     axios.get(`/download`, { params: { url: videoId } }).then((res) => {
-      updated[index].status = res.data.status;
-      setDownloadItem(updated);
+      updated.status = res.data.status;
+      updateDownloadItems(videoId, ACTION.UPDATE, updated);
+
       setTick(1);
     });
   };
@@ -174,8 +191,8 @@ const Downloader = () => {
                 <ItemCard
                   key={dLItem.videoId}
                   details={dLItem}
-                  getDownload={() => setDl(dLItem.videoId)}
-                  removeItem={(r) => clearItem(r)}
+                  getDownload={() => getDownload(dLItem.videoId)}
+                  removeItem={(r) => updateDownloadItems(r, ACTION.REMOVE)}
                 />
               );
             })}
